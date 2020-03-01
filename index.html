@@ -1,4 +1,43 @@
-<p>Do not maximize the window! It must be fixed for everything to work.</p>
-<script>
-window.open("main.html", "main.html", "width=1364,height=666")
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solar System Explorer</title>
+	<link rel="stylesheet" href="stylesite.css">
+	<link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+</head>
+<body>
+<br>
+<div id="main">
+	<center>
+		<h1>
+	Solar System Explorer
+</h1>
+<p>Explore our solar system!</p>
+<p id="go" onclick="go()">
+	Go!
+</p>
+<br>
+<p id="go" onclick="mobile()">Explore on mobile devices.</p>
+	</center>
+</div>
+</body>
+<style type="text/css">
+	body {
+		background-image:url('background.png'); ;
+	}
+h1 {
+	color: white;
+	font-family: 
+}
+</style>
+<script type="text/javascript">
+	function go() {
+	 	window.open("main.html", "main.html", "width=1364,height=666")
+	}
+	function mobile() {
+		window.location.assign();
+	}
+	
 </script>
+</html>
