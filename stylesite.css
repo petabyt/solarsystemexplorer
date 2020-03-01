@@ -1,0 +1,53 @@
+img {
+animation-name: grow;
+    animation-duration: 4s;
+}
+#x {
+animation-name: grow;
+    animation-duration: 0s;
+}
+a {
+    border: 1px solid grey;
+    color: black;
+    text-decoration: none;
+    background-color: yellow
+}
+#main-img {
+    size: 50px;
+}
+button {
+    border: transparent;
+    background: gold;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    right:100px;
+    border-radius: 5px;
+
+
+}
+button:hover {
+    background-color: yellow;
+}
+#main {
+animation-name: grow1;
+    animation-duration: 4s;
+    font-size: 30px;
+    color: white;
+
+}
+#go {
+    
+    cursor: pointer;
+}
+
+/* Standard syntax */
+@keyframes grow {
+    from {width: 10px;}
+    to {width: 855px;}
+}
+@keyframes grow1 {
+    from {font-size: 1px;}
+    to {font-size: 30px;}
+}
